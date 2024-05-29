@@ -16,6 +16,27 @@ body {
 .Nav-Bar {
     height: 100px;
 }
+.A{
+    position: relative;
+    left: 60px;
+}
+
+.containerall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color:lightgrey;
+    width: 600px;
+    height: 55px;
+    display: flex;
+    flex: 1;
+    border: none;
+    outline: none;
+    border-radius: 20%;
+}
 
 
 
