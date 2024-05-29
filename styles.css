@@ -1,4 +1,92 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 19%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: scroll;
+    transition: 0.5s;
+    padding-top: 20px;
+    color: black;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    text-align: left;
+    align-items: self-start;
+    flex-direction: vertical;
+}
+
+.sidenav a:hover {
+    background-color: #818181;
+    color: #818181;
+    text-decoration-color: none;
+    border-radius: 30px;
+    -webkit-text-fill-color: black;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    text-align: right;
+}
+
+.main {
+    transition: margin-left .5s;
+    padding: 16px
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer a {
+    display: block;
+    color: #818181;
+    text-decoration: solid;
+    padding: 8px 32px;
+}
+
+.footer p {
+    padding-left: 32px;
+    font-size: 12px;
+    color: #818181;
+} 
+=======
+*{
+=======
 * {
+>>>>>>> 34dcd4a364b188a96bc046ed4b7a504fd6ddca9a
     margin: 0;
     padding: 0;
     box-shadow: border-box;
@@ -153,4 +241,9 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 45px;
+<<<<<<< HEAD
 }
+>>>>>>> af00c06bcdb5e6568c2c23233a151982f8990204
+=======
+}
+>>>>>>> 34dcd4a364b188a96bc046ed4b7a504fd6ddca9a
