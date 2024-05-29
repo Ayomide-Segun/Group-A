@@ -1,132 +1,239 @@
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-shadow: border-box;
     font-family: Roboto, Arial, sans-serif;
 }
 
-body{
-margin-left: 290px;
-margin-top: 60px;
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
-button{
+/* NavBar */
+.Nav-Bar {
+    height: 56px;
+}
+
+
+
+/* Sidebar */
+.sidebar {
+    display: flex;
+    width: 15%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 19%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: scroll;
+    transition: 0.5s;
+    padding-top: 20px;
+    color: black;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    text-align: left;
+    align-items: self-start;
+    flex-direction: vertical;
+}
+
+.sidenav a:hover {
+    background-color: #818181;
+    color: #818181;
+    text-decoration-color: none;
+    border-radius: 30px;
+    -webkit-text-fill-color: black;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    text-align: right;
+}
+
+.main {
+    transition: margin-left .5s;
+    padding: 16px
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer a {
+    display: block;
+    color: #818181;
+    text-decoration: solid;
+    padding: 8px 32px;
+}
+
+.footer p {
+    padding-left: 32px;
+    font-size: 12px;
+    color: #818181;
+} 
+
+/* Body Page */
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.containerBody {
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+}
+
+button {
     border-radius: 10px;
     padding: 0px 12px;
     margin: 12px 12px 12px 0;
     height: 32px;
     font-size: 14px;
-    background-color:#ededed;
-    border: none; 
+    background-color: #ededed;
+    border: none;
 }
 
-.All-button{
+.All-button {
     background-color: black;
     color: white;
 }
 
-.grid1{
+.grid1 {
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 45px;
 }
 
-.video{
+.video {
     width: 372.25px;
 }
 
-.thumbnail{
+.thumbnail {
     height: 209.39px;
     width: 372.25px;
 }
 
-.text{
-  margin-top: 12px;
-  display: flex;
+.text {
+    margin-top: 12px;
+    display: flex;
 }
 
-.profile{
+.profile {
     margin-right: 12px;
 }
 
-.description{
+.description {
     line-height: 20px;
 }
 
-.title{
+.title {
     font-size: 16px;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
-.subtitle{
+.subtitle {
     color: #606060;
     font-size: 14px;
 }
 
-.shortsTitleDiv{
+.shortsTitleDiv {
     margin: 50px 0 30px 0;
     display: flex;
 
 }
 
-.grid2{
+.grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 14.5px;
     width: 1000px;
 }
 
-.ShortsLogo{
+.ShortsLogo {
     height: 33px;
 }
 
-.ShortsTitle{
+.ShortsTitle {
     font-size: 25px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.exit{
+.exit {
     height: 33px;
     margin-left: 1050px;
 }
 
-.shorts{
+.shorts {
     width: 225px;
     border-radius: 15px;
 }
 
-.line1{
+.line1 {
     position: absolute;
     top: 1510px;
     width: 440px;
 }
 
-.Show-more{
+.Show-more {
     margin-top: 40px;
     width: 340px;
     height: 34.4px;
     background-color: white;
-    border:2px #EDEDED solid;
+    border: 2px #EDEDED solid;
     margin-left: 440px;
 }
 
-.ArrowHead{
+.ArrowHead {
     width: 20px;
     position: absolute;
     top: 1502px;
     left: 940px;
 }
 
-.line2{
+.line2 {
     position: absolute;
     top: 1510px;
     width: 400px;
     left: 1070px;
 }
 
-.grid3{
+.grid3 {
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
