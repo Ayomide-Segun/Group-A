@@ -14,7 +14,7 @@ body {
 
 /* NavBar */
 .Nav-Bar {
-    height: 56px;
+    height: 100px;
 }
 .A{
     position: relative;
@@ -43,33 +43,33 @@ form{
 /* Sidebar */
 .sidebar {
     display: flex;
-    width: 15%;
+    width: 19%;
 }
 
 .sidenav {
     height: 100%;
-    width: 19%;
-    position:absolute;
-    top: 0;
-    left: 0;
+    width: 15%;
     background-color: white;
     overflow-x: scroll;
     transition: 0.5s;
     padding-top: 20px;
     color: black;
+    position: fixed;
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     color: black;
     display: block;
     text-align: left;
     align-items: self-start;
     flex-direction: vertical;
 }
-
+.sidenav a image{
+     margin-right: 10px;
+}
 .sidenav a:hover {
     background-color: #818181;
     color: #818181;
@@ -87,6 +87,10 @@ form{
     font-size: 36px;
     margin-left: 50px;
 }
+.Arrow{
+    position: absolute;
+    top: 150px;
+}
 
 .openbtn {
     font-size: 20px;
@@ -102,28 +106,10 @@ form{
     transition: margin-left .5s;
     padding: 16px
 }
-
-/* Footer */
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
+.AboutNews{
+    padding: 8px 8px 8px 32px;
+    font-size: 13px;
 }
-
-.footer a {
-    display: block;
-    color: #818181;
-    text-decoration: solid;
-    padding: 8px 32px;
-}
-
-.footer p {
-    padding-left: 32px;
-    font-size: 12px;
-    color: #818181;
-} 
-
 /* Body Page */
 .container {
     display: flex;
@@ -134,7 +120,7 @@ form{
 
 .containerBody {
     display: flex;
-    width: 85%;
+    width: 83%;
     flex-direction: column;
 }
 
