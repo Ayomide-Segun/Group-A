@@ -13,20 +13,15 @@ body {
 }
 
 /* NavBar */
-.Nav-Bar {
-    height: 56px;
-}
-.A{
-    position: relative;
-    left: 60px;
-}
-
 .containerall{
+    height: 70px;
+    width: 100%;
+    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
 }
-
 form{
     background-color:lightgrey;
     width: 600px;
@@ -37,39 +32,46 @@ form{
     outline: none;
     border-radius: 20%;
 }
-
-
-
-/* Sidebar */
-.sidebar {
-    display: flex;
-    width: 15%;
+.A{
+    position: relative;
+    left: 60px;
 }
 
+/* Sidebar */
 .sidenav {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
     width: 19%;
-    position:absolute;
-    top: 0;
-    left: 0;
-    background-color: white;
+    height: 100%;
+    width: 15%;
+    background-color: rgb(255, 255, 255);
     overflow-x: scroll;
     transition: 0.5s;
     padding-top: 20px;
     color: black;
+    position: fixed;
+
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 20px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     color: black;
     display: block;
     text-align: left;
     align-items: self-start;
     flex-direction: vertical;
 }
-
+.sidenav p{
+    padding: 8px 8px 8px 20px;
+    font-weight: bold;
+}
+.sidenav a img{
+     margin-right: 10px;
+     position: relative;
+     top:6px;
+}
 .sidenav a:hover {
     background-color: #818181;
     color: #818181;
@@ -78,67 +80,43 @@ form{
     -webkit-text-fill-color: black;
 }
 
-.sidenav .closebtn {
+.Arrow{
     position: absolute;
-    cursor: pointer;
-    color: black;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-.openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    padding: 10px 15px;
-    border: none;
-    text-align: right;
+    top: 150px;
 }
 
 .main {
     transition: margin-left .5s;
     padding: 16px
 }
-
-/* Footer */
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
+.AboutNews{
+    padding: 8px 8px 8px 0;
+    font-size: 13px;
+    color: #606060;
 }
-
-.footer a {
-    display: block;
-    color: #818181;
-    text-decoration: solid;
-    padding: 8px 32px;
-}
-
-.footer p {
-    padding-left: 32px;
-    font-size: 12px;
-    color: #818181;
-} 
-
 /* Body Page */
 .container {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top: 70px;
 }
 
 
 .containerBody {
     display: flex;
-    width: 85%;
+    width: 83%;
     flex-direction: column;
-}
+    margin-left: 260px;
 
-button {
+}
+.options{
+    display: flex;
+    position: fixed;
+    background-color: brown;
+    width: 100%;
+}
+.optionButton, .All-button {
     border-radius: 10px;
     padding: 0px 12px;
     margin: 12px 12px 12px 0;
@@ -152,9 +130,13 @@ button {
     background-color: black;
     color: white;
 }
+.preveiws{
+    background-color: aquamarine;
+    margin-top: 57px;
+}
 
 .grid1 {
-    margin-top: 20px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 45px;
@@ -227,12 +209,12 @@ button {
 
 .line1 {
     position: absolute;
-    top: 1510px;
+    top: 1520px;
     width: 440px;
 }
 
 .Show-more {
-    margin-top: 40px;
+    margin-top: 20px;
     width: 340px;
     height: 34.4px;
     background-color: white;
@@ -243,15 +225,15 @@ button {
 .ArrowHead {
     width: 20px;
     position: absolute;
-    top: 1502px;
+    top: 1514px;
     left: 940px;
 }
 
 .line2 {
     position: absolute;
-    top: 1510px;
+    top: 1520px;
     width: 400px;
-    left: 1070px;
+    left: 1040px;
 }
 
 .grid3 {
