@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: Roboto, Arial, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* Nav bar */
+.Nav-Bar{
+    height: 70px;
+    width: 100%;
+    background-color: blue;
+}
+
+/* main video and comments */
+.content{
+    display: flex;
+    margin: 0 40px 0 57px;
+    width: 70%;
+    background-color: aquamarine;
+}
+
+/* Video */
+.videos{
+    width: 30%;
+    margin-right: 85px;
+    background-color: blanchedalmond;
+}
