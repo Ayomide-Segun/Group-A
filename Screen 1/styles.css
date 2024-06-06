@@ -38,10 +38,6 @@ form{
 }
 
 /* Sidebar */
-.sidebar {
-}
-
-
 .sidenav {
     display: flex;
     flex-direction: column;
@@ -119,7 +115,6 @@ form{
     position: fixed;
     background-color: brown;
     width: 100%;
-    h
 }
 .optionButton, .All-button {
     border-radius: 10px;
