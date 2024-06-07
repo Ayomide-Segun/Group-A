@@ -22,20 +22,65 @@ body {
     justify-content: center;
     position: fixed;
 }
-form{
-    background-color:lightgrey;
-    width: 600px;
-    height: 55px;
+.containerNav {
     display: flex;
-    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.left-container img {
+    width: 40px;
+}
+
+.left-container img + img {
+    width: 150px;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.center-container input {
+    width: 500px;
+    padding: 15px 15px;
+    /* border-radius: 50px; */
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-right: none;
+    border: 1px solid #D7D7D7;
+}
+
+.center-container button {
+    background-color: #ededed;
+    height: 47px;
     border: none;
-    outline: none;
-    border-radius: 20%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
-.A{
-    position: relative;
-    left: 60px;
+
+.right-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
 }
+
+.right-container img {
+    height: 30px;
+    width: 30px;
+}
+
+
 
 /* Sidebar */
 .sidenav {
@@ -101,8 +146,6 @@ form{
     width: 100%;
     margin-top: 70px;
 }
-
-
 .containerBody {
     display: flex;
     width: 83%;
