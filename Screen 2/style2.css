@@ -25,6 +25,7 @@ body {
 /* main video and comments */
 .content{
     display: flex;
+    flex-direction: column;
     margin: 0 40px 0 57px;
     width: 70%;
     background-color: aquamarine;
