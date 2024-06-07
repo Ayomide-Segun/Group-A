@@ -31,9 +31,176 @@ body {
     background-color: aquamarine;
 }
 
+
+
 /* Video */
-.videos{
+.right-container{
     width: 30%;
     margin-right: 85px;
-    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    width: 402px;
+}
+.buttons-div{
+    display: flex;   
+}
+.All-button, .From-button, .ForYou-button, .Comedy-button{
+    height: 32px;
+    padding: 0 12px ;
+    margin: 8px 8px 8px 0;
+    font-size: 14px;
+    background-color: #ededed;
+    border: none;
+    border-radius: 10px;
+}
+.All-button{
+    background-color: #000000;
+    color: white;
+}
+.advert{
+    width: 402px;
+    display: flex;
+}
+.preveiw-image1{
+    width: 168px;
+    height: 130px;
+}
+.words{
+    margin: 0 0 4px 4px;
+}
+.title{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.subtitle, .Subtitle2, .context{
+    font-size: 13px;
+    color: #606060;
+    line-height: 18px;
+}
+.Subtitle2{
+    margin-top: 20px;
+}
+.sponsored{
+    font-weight: bold;
+    color: black;
+}
+.one-video-preveiw{
+    display: flex;
+    margin-top: 2px;
+}
+.preveiw-image{
+    width: 168px;
+    height: 94px;
+}
+.context{
+    margin-top: 5px;
+}
+.line{
+    margin: 20px 0 26px 0;
+}
+.shorts-header{
+    display: flex;
+    margin-bottom: 20px;
+}
+.shorts-logo{
+    width: 18px;
+}
+.logo-text{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 10px;
+}
+.short-videos{
+    display: flex;
+    flex-direction: row;
+}
+.shorts-video{
+    width: 131px;
+    margin-right: 4px;
+}
+.shorts-image{
+    width: 131px;
+    height: 238px;
+}
+hr{
+    margin: 8px 0 30px 0;
+}
+/* Download Quality */
+.download-quality{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 22%;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    left: 500px;
+}
+.size1{
+    margin-left: 120px;
+}
+.size2{
+    margin-left: 152px;
+}
+.radio, .heading, .describe{
+    margin-left: 20px;
+    margin-right: 7px;
+}
+.checkbox{
+    margin-right: 60px;
+}
+.selector{
+    margin-right: 7px;  
+}
+.heading{
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 300;
+}
+.label{
+    line-height: 40px;
+    color: #606060;
+}
+hr{
+    width: 80%;
+}
+.logo{
+    margin-bottom: 16px;
+    margin-left: 15px;
+}
+.describe{
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.buttons{
+    margin-left: 110px;
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+.cancel-button, .download-button{
+    font-size: 14px;
+    border-radius: 15px;
+    border: none;
+    padding: 3px 10px 3px 10px;
+    background-color: white;
+    font-weight: bold;
+}
+.cancel-button{
+    color: #000000;
+    
+}
+.cancel-button:active{
+    background-color: #000000;
+    color: white;
+}
+.download-button{
+    color: rgb(61, 102, 213);
+}
+.download-button:active{
+    background-color: rgb(61, 102, 213);
+    color: white;
 }
