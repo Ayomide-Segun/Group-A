@@ -37,3 +37,18 @@ body {
     margin-right: 85px;
     background-color: blanchedalmond;
 }
+
+
+.h2 {
+    margin-top: 0;
+    justify-content: space-between;
+ 
+  }
+
+  .div video-frame{
+justify-content: center;
+  }
+
+  .h3 {
+    align-items: first baseline;
+  }
